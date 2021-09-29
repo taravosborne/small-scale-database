@@ -1,0 +1,28 @@
+Competition Log Interface
+Goal level: Sea level
+
+MSS:
+1. club organizer starts up the app
+2. app provides an option button prompt
+3. club organizer chooses an option
+4. app responds by asking for competition details
+5. club organizer enters the organization
+6. app states the information has been added and presents the prompt
+---------------------------------------------
+Extension #1
+3a. the competition entered already exists in the database
+3b. app responds; duplicate competition
+3c. reconnects to MSS step 2 without adding the duplicate competition
+
+Extension #2
+3a. user attempts to remove a competition that does not already exist
+3b. app responds
+
+Extension #3
+3a. user attempts to input an invalid command
+3b. app responds; invalid command
+3c. reconnects to MSS step 2
+
+Extension #4
+3a. user selects LY and there are no competitions in that year
+3b. system responds with no competitions
